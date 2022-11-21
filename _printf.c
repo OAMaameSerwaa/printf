@@ -31,7 +31,7 @@ int _printf(const char *format, ...)
 					break;
 				if (format[a] == container[b].t)
 				{
-					buff_ct = container[b].fn(buffer, list, buff_ct);
+					buff_ct = container[b].f(buffer, list, buff_ct);
 					break;
 				}
 			}
@@ -47,4 +47,3 @@ int _printf(const char *format, ...)
 	print_buff(buffer, buff_ct);
 	return (buff_ct);
 }
-
