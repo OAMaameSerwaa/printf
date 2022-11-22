@@ -11,7 +11,7 @@
 /**
  * struct call - struct call
  * @t: t - flag for data type
- * @fn: function - assocated function
+ * @f: function - assocated function
  */
 typedef struct call
 {
